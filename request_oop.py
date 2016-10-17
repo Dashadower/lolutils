@@ -67,7 +67,7 @@ class Game():
 
 if __name__ == "__main__":
     #Test app
-    myapi = RiotAPI("kr","d11f067d-3993-4fae-8cf9-ed4001926308")
+    myapi = RiotAPI("kr","MY_API_KEY")
     nick = "무앤디"
     print(Summoner(nick,myapi).getMostChampionData(3))
     print(Summoner(nick,myapi).SummonerID)
